@@ -1,0 +1,22 @@
+
+
+.fg-tooltip .fg-tooltip-pointer-down-inner { border-left:5px dotted transparent;border-right:5px dotted transparent;border-top:10px solid #FFFFFF;bottom:auto;left:-5px;top:-14px; }
+.fg-tooltip .fg-tooltip-pointer-down, .fg-tooltip .fg-tooltip-pointer-down-inner { background:none repeat scroll 0 0 transparent;border-bottom-width:0;height:0;position:absolute;width:0; }
+.fg-tooltip .fg-tooltip-pointer-down { border-left:7px dotted transparent; border-right:7px dotted transparent; border-top-width:14px; bottom:-14px; left:50%; margin-left:-7px; right:auto; }
+
+.fg-tooltip .fg-tooltip-pointer-down .fg-tooltip-pointer-down-inner { border-top: 10px solid #333; }
+.fg-tooltip { border-width:2px !important; padding: 10px 0; position:absolute; text-align:center; z-index:9999; width: 12em; }
+
+.ui-corner-all { -moz-border-radius:4px 4px 4px 4px; border-radius: 4px 4px 4px 4px; }
+.fg-tooltip { position:absolute; }
+.ui-widget-header { background: #000; border:1px solid #333; color:#FFFFFF; }
+
+.fg-tooltip-noborder { border-width: 0px !important; }
+
+/* customize */
+.ui-widget-header {
+  text-transform: uppercase;
+  font-size: 12px;
+  background:-moz-linear-gradient(0% 80% 90deg, #333333, #333333, #999999 100%) repeat scroll 0 0 #000000;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#333), color-stop(.3,#000));
+}
