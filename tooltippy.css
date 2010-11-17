@@ -7,7 +7,7 @@
 .fg-tooltip .fg-tooltip-pointer-down .fg-tooltip-pointer-down-inner { border-top: 10px solid #333; }
 .fg-tooltip { border-width:2px !important; padding: 10px 0; position:absolute; text-align:center; z-index:9999; width: 12em; }
 
-.ui-corner-all { -moz-border-radius:4px 4px 4px 4px; border-radius: 4px 4px 4px 4px; }
+.ui-corner-all { -moz-border-radius:4px 4px 4px 4px; border-radius: 4px 4px 4px 4px; -webkit-border-radius:4px;}
 .fg-tooltip { position:absolute; }
 .ui-widget-header { background: #000; border:1px solid #333; color:#FFFFFF; }
 
